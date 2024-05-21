@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "label": "Crew ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1woamet",
+        "columns": null
+      },
+      "id": "Field_1qx9end",
+      "key": "crewId",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Ship's cargo limit",
+      "type": "number",
+      "layout": {
+        "row": "Row_1mvwv3w",
+        "columns": null
+      },
+      "id": "Field_0cjsycu",
+      "key": "shipCargoLimit",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "JobRequest",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.21.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 15
+}
